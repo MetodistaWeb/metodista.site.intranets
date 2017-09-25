@@ -1,0 +1,7 @@
+Changelog
+---------
+
+20150901.01 (unreleased)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Criação do pacote [dbarbato]

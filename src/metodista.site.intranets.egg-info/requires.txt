@@ -1,0 +1,15 @@
+setuptools
+Pillow
+Plone
+collective.cover
+collective.polls
+collective.upload
+Products.PloneFormGen
+plone.app.contenttypes
+plone.app.event
+sc.banner
+sc.social.like
+sc.microsite
+
+[test]
+plone.app.testing

@@ -1,0 +1,74 @@
+Metadata-Version: 1.1
+Name: metodista.site.intranets
+Version: 20150901.1.dev0
+Summary: Configuracao dos portais de Intranet.
+Home-page: http://metodista.br
+Author: Danilo Sartorelli Barbato
+Author-email: danilo.barbato@metodista.br
+License: GPLv2
+Description: ******************
+        Portal de Intranet
+        ******************
+        
+        .. contents:: Table of Contents
+           :depth: 2
+        
+        Overview
+        --------
+        
+        Configurações para portais de Intranet
+        
+        Instalação
+        ----------
+        
+        Para habilitar esse produto em um instalação baseada em buildout:
+        
+        1. Edite seu buildout.cfg e adiciona ``metodista.site.intranets`` na lista
+        de eggs a instalar ::
+        
+            [buildout]
+            ...
+            eggs =
+                metodista.site.intranets
+        
+        Após atualizar a configuração você precisa rodar ''bin/buildout'', que irá cuidar de
+        atualizar o seu sistema.
+        
+        Acesse a página de 'Configuração do Site' no seu site Plone e clique no link de 'Complementos'.
+        
+        Seleciona a caixa próxima de ''metodista.site.intranets'' e clique no botão 'Ativar'.
+        
+        Nota: Pode ser necessário limpar o cache no navegador e salvar seus registros para
+        visualizar os efeitos da instalação do produto.
+        
+        Contribuidores
+        --------------
+        
+        * Danilo Sartorelli barbato
+        
+        Changelog
+        ---------
+        
+        20150901.01 (unreleased)
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+        
+        * Criação do pacote [dbarbato]
+        
+Keywords: metodista intranet plone4.3
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 4.3
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: News/Diary
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
